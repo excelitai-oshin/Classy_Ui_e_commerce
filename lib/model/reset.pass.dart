@@ -11,12 +11,13 @@ class ResetScreen extends StatelessWidget {
         child: Padding(
           padding: const EdgeInsets.symmetric(vertical: 10),
           child: AppBar(
+            elevation: 0,
             backgroundColor: Colors.white,
             centerTitle: true,
             leading: IconButton(
               icon: Icon(Icons.arrow_back_ios),
               color: Colors.black,
-              onPressed: () {  },
+              onPressed: () {  },//
 
             ),
             title: Image.asset(

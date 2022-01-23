@@ -11,6 +11,7 @@ class ForgetPassScreen extends StatelessWidget {
         child: Padding(
           padding: const EdgeInsets.symmetric(vertical: 10),
           child: AppBar(
+            elevation: 0,
             backgroundColor: Colors.white,
             centerTitle: true,
             leading: IconButton(
